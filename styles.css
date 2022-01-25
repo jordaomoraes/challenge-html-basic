@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  align-items: center;
+  background-color: rgb(199, 170, 132);
+}
+
+.content {
+  background: white;
+  width: 60%;
+  margin: 40px auto;
+  padding: 30px;
+  border-radius: 10px;
+}
+
+fieldset {
+  width: 60%;
+  margin: 0px auto;
+  padding: 2rem;
+}
+
+fieldset legend {
+
+  color: #016ABC;
+  font-size: 1.4rem;
+  font-weight: 900;
+  font-family: 'Lato', sans-serif;
+}
+
+select {
+  width: 100%;
+  height: 2rem;
+  margin-top: 1rem;
+
+}
+
+input {
+  width: 100%;
+  height: 2rem;
+  margin-top: 1rem;
+}
+
+textarea {
+  width: 100%;
+  resize: none;
+
+  margin-top: 1rem;
+}
+
+label {
+  font-family: 'Sedgwick Ave', cursive;
+  font-weight: 600;
+}
+
+button {
+
+  background: #045e13;
+  color: white;
+  border-style: outset;
+  border-color: #00a228;
+  height: 50px;
+  cursor: pointer;
+  width: 120px;
+  font: bold 15px arial, sans-serif;
+  text-shadow: none;
+
+}
+
+button:hover {
+  background: #20bc01;
+  color: #fff;
+  border: 1px solid #eee;
+  border-radius: 10px;
+  text-shadow: none;
+
+}
